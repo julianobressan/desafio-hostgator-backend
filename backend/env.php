@@ -3,7 +3,7 @@
 return [
     'environment' => 'development',
     'app_name' => 'Desafio HostGator',
-    'frontend_address' => 'http://localhost:3001',
+    'frontend_address' => 'http://localhost:3000',
     'database' => [
         'development' => [
             'adapter' => 'mysql',
