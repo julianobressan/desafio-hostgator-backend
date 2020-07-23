@@ -1,0 +1,79 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 22 23:47:31.102556 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Wed Jul 22 23:47:31.102606 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 22 23:48:13.744900 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 22 23:48:15.651790 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Wed Jul 22 23:48:15.651851 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 22 23:48:20.109147 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.21.0.1:54046] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:48:23.504455 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.21.0.1:54046] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:48:26.655554 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.21.0.1:54046] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:48:26.876084 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.21.0.1:54046] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:48:26.987577 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.21.0.1:54046] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:48:27.124800 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.21.0.1:54046] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:48:32.092993 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.21.0.1:54046] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:49:23.363177 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.21.0.1:54062] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:49:41.268027 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 22 23:50:17.526247 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Wed Jul 22 23:50:17.526295 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 22 23:50:20.149238 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.22.0.1:56980] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:50:21.431184 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.22.0.1:56980] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:50:21.960278 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.22.0.1:56980] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:50:22.144804 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.22.0.1:56980] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:50:22.271964 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.22.0.1:56980] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:50:26.652283 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.22.0.1:56980] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:50:52.053828 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:56978] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:51:06.697254 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57040] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:51:40.019485 2020] [core:crit] [pid 17] (13)Permission denied: [client 172.22.0.1:57048] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:52:17.440348 2020] [core:crit] [pid 20] (13)Permission denied: [client 172.22.0.1:57070] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:52:18.611339 2020] [core:crit] [pid 20] (13)Permission denied: [client 172.22.0.1:57070] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:52:21.602359 2020] [core:crit] [pid 20] (13)Permission denied: [client 172.22.0.1:57070] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:52:45.846072 2020] [core:crit] [pid 21] (13)Permission denied: [client 172.22.0.1:57080] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:52:59.757686 2020] [core:crit] [pid 16] (13)Permission denied: [client 172.22.0.1:57112] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:16.583599 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:57118] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:17.079100 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:57118] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:17.286447 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:57118] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:17.450513 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:57118] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:17.632369 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:57118] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:17.802517 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:57118] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:17.947217 2020] [core:crit] [pid 18] (13)Permission denied: [client 172.22.0.1:57118] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:55.158897 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:55.657112 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:55.832719 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:55.988254 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:56.145099 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:56.299737 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:56.445995 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:56.614488 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:56.781531 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:53:56.933096 2020] [core:crit] [pid 19] (13)Permission denied: [client 172.22.0.1:57142] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:54:34.527418 2020] [core:crit] [pid 17] (13)Permission denied: [client 172.22.0.1:57156] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:54:35.239024 2020] [core:crit] [pid 17] (13)Permission denied: [client 172.22.0.1:57156] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:54:35.450100 2020] [core:crit] [pid 17] (13)Permission denied: [client 172.22.0.1:57156] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:54:35.603552 2020] [core:crit] [pid 17] (13)Permission denied: [client 172.22.0.1:57156] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+[Wed Jul 22 23:54:35.750305 2020] [core:crit] [pid 17] (13)Permission denied: [client 172.22.0.1:57156] AH00529: /var/www/html/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/' is executable
+
+                                                                                            
+  [RuntimeException]                                                                        
+  The HOME or COMPOSER_HOME environment variable must be set for composer to run correctly  
+                                                                                            
+
+
+In FileLocator.php line 71:
+                                                                               
+  The file "phinx.yml" does not exist (in: "/var/www/html/public", "/var/www/  
+  html/public/").                                                              
+                                                                               
+
+migrate [-c|--configuration CONFIGURATION] [-p|--parser PARSER] [-e|--environment ENVIRONMENT] [-t|--target TARGET] [-d|--date DATE] [-x|--dry-run] [--fake]
+
+
+In FileLocator.php line 71:
+                                                                               
+  The file "phinx.yml" does not exist (in: "/var/www/html/public", "/var/www/  
+  html/public/").                                                              
+                                                                               
+
+seed:run [-c|--configuration CONFIGURATION] [-p|--parser PARSER] [-e|--environment ENVIRONMENT] [-s|--seed SEED]
+
