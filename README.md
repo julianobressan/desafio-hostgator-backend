@@ -18,6 +18,8 @@ Desenvolvida em PHP 7.4, utiliza Slim Framework para gerar uma API Rest, a qual 
 
 A aplicação está modelada com uma data layer composta por Models, que representam o banco de dados, e uma classe manipuladora do banco de dados, Database. O funcionamento foi modelado para funcionaar semelhante ao framework Eloquent, mas sem utilizar frameworks terceiros. Foram implementados somente os métodos necessários para realizar a busca dos dados, para cumprir o desafio, ficando o resto das operações de manipulação a serem implementadas posteriormente.
 
+![Arquitetura](arquitetura.png?raw=true "Arquitetura")
+
 As configurações do ambiente devem ser inseridas no arquivo env.php. Atente para os itens abaixo:
 * 'frontend_address' => 'http://localhost:3001', //esta configuração libera o backend para permitir requisições do frontend hospedado na mesma máquina. Caso você esteja utilizando outra porta ou endereço, nào esqueça de alterar aqui
 * 'database' => [ 'development' // Os dados se referem à stack docker, conforme arquivo docker-compose.yml. Altere se for necessário
