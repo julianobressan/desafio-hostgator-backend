@@ -30,6 +30,7 @@ The configurations of environment must be inserted in the env.php file. Pay atte
 ## Database
 
 ![Diagrama ER](db.png?raw=true "Diagrama ER")
+
 The table and data must be created by migrations and seeders, using the Phinx framework. So, in first use, follow the steps bellow to generate the database (at this point, you already must be ran the `docker-compose up -d` command):
 
 * Type `docker ps` and copy the ID of the container with sufix *-php74
