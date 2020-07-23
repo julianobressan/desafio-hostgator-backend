@@ -1,44 +1,49 @@
 # Desafio HostGator BackEnd
 
-Consiste no backend da aplicação, composto por uma aplicação em PHP e banco de dados MySQL. 
+This is the backend of the app, built in PHP and MySQL.
 
-## Ambiente
+## Environment
 
-O sistema está contido em containeres Docker. Para rodar, em seu computador execute:
+To run the app, you must run a stack of Docker constainers. Follow the instructions bellow:
+
 1. `git clone https://github.com/julianobressan/desafio-hostgator-backend.git`
 2. `cd desafio-hostgator-backend`
 3. `docker-compose up -d`
 
 
-## A aplicação
+## The application
 
-Desenvolvida em PHP 7.4, utiliza Slim Framework para gerar uma API Rest, a qual conta com dois endpoints que retornam objetos JSON:
-* prices
-* prices/<id do produto>
+Built with PHP 7.4, uses Slim Framework to generate a REST API, that counts with two endpoints, returning JSON objects:
 
-A aplicação está modelada com uma data layer composta por Models, que representam o banco de dados, e uma classe manipuladora do banco de dados, Database. O funcionamento foi modelado para funcionaar semelhante ao framework Eloquent, mas sem utilizar frameworks terceiros. Foram implementados somente os métodos necessários para realizar a busca dos dados, para cumprir o desafio, ficando o resto das operações de manipulação a serem implementadas posteriormente.
+* /prices
+* /prices/<id do produto>
+
+The app was modeled with a data layer built by Models, that reprpesents the database, and one class that manipulates the DB, named Database. Its function was modeled to run similiar to ORM Eloquent framework. It was implemented only the methods needed to realize the search of data, to acomplish the challenge, resting the other operations to be implemented in following versions. 
 
 ![Arquitetura](arquitetura.png?raw=true "Arquitetura")
 
-As configurações do ambiente devem ser inseridas no arquivo env.php. Atente para os itens abaixo:
-* 'frontend_address' => 'http://localhost:3001', //esta configuração libera o backend para permitir requisições do frontend hospedado na mesma máquina. Caso você esteja utilizando outra porta ou endereço, nào esqueça de alterar aqui
-* 'database' => [ 'development' // Os dados se referem à stack docker, conforme arquivo docker-compose.yml. Altere se for necessário
+The configurations of environment must be inserted in the env.php file. Pay attention in following items:
 
-## Banco de dados
+* 'frontend_address' => 'http://localhost:3000', //The URL of frontend
+* 'database' => [ 'development' ] //The connection string of database. Change only if it is necessary
+
+## Database
+
 ![Diagrama ER](db.png?raw=true "Diagrama ER")
+The table and data must be created by migrations and seeders, using the Phinx framework. So, in first use, follow the steps bellow to generate the database (at this point, you already must be ran the `docker-compose up -d` command):
 
-As tabelas e os dados são criados por migrations e seeders, utilizando o framework Phinx. Assim, na primeira utilização, siga os passos abaixo para gerar o banco de dados (necessáro já ter rodado o `docker-compose up -d`:
+* Type `docker ps` and copy the ID of the container with sufix *-php74
+* Type `docker exec -i -t <id do container> /bin/bash` and enter
+* Type `vendor/bin/phinx migrate` and enter
+* Type `vendor/bin/phinx seed:run` and enter
 
-* Digite `docker ps` e copie a ID do container com final *-php74
-* Digite `docker exec -i -t <id do container> /bin/bash` e entre
-* Digite `vendor/bin/phinx migrate` e entre
-* Digite `vendor/bin/phinx seed:run` e entre
+## Use
 
-## Utilização
-Se você não alterou a porta e o endereço, poderá testar acessando as URL como:
+If you don't changed the address and port of apps, you can test the app with the following URLs:
 * http://localhost:8001/prices
 * http://localhost:8001/prices/5
+* http://localhost:8001/prices/6 and etc.
 
-## Testes
+## Unit tests
 
-Foram realizados testes unitários utilizando PHPUnit.
+The PHPUnit framework was used to realize unit tests.
