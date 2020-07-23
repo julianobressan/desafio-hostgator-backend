@@ -2,6 +2,14 @@
 
 Consiste no backend da aplicação, composto por uma aplicação em PHP e banco de dados MySQL. 
 
+## Ambiente
+
+O sistema está contido em containeres Docker. Para rodar, em seu computador execute:
+1. `git clone https://github.com/julianobressan/desafio-hostgator-backend.git`
+2. `cd desafio-hostgator-backend`
+3. `docker-compose up -d`
+
+
 ## A aplicação
 
 Desenvolvida em PHP 7.4, utiliza Slim Framework para gerar uma API Rest, a qual conta com dois endpoints que retornam objetos JSON:
@@ -17,7 +25,7 @@ As configurações do ambiente devem ser inseridas no arquivo env.php. Atente pa
 ## Banco de dados
 ![Diagrama ER](db.png?raw=true "Diagrama ER")
 
-As tabelas e os dados são criados por migrations e seeders, utilizando o framework Phinx. Assim, na primeira utilização, siga os passos abaixo para gerar o banco de dados:
+As tabelas e os dados são criados por migrations e seeders, utilizando o framework Phinx. Assim, na primeira utilização, siga os passos abaixo para gerar o banco de dados (necessáro já ter rodado o `docker-compose up -d`:
 
 * Digite `docker ps` e copie a ID do container com final *-php74
 * Digite `docker exec -i -t <id do container> /bin/bash` e entre
