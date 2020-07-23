@@ -15,6 +15,7 @@ As configurações do ambiente devem ser inseridas no arquivo env.php. Atente pa
 * 'database' => [ 'development' // Os dados se referem à stack docker, conforme arquivo docker-compose.yml. Altere se for necessário
 
 ## Banco de dados
+![Diagrama ER](db.png?raw=true "Diagrama ER")
 As tabelas e os dados são criados por migrations e seeders, utilizando o framework Phinx. Assim, na primeira utilização, siga os passos abaixo para gerar o banco de dados:
 
 * Digite `docker ps` e copie a ID do container com final *-php74
